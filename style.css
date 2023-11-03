@@ -1,0 +1,94 @@
+.box {
+    background-color:rgb(150, 152, 152);
+    box-shadow: 8px 8px 6px grey;
+    width: 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-left: 2px;
+}
+body {
+    background-color:rgb(72, 163, 255);
+    margin: 0;
+    padding: 2em;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont,
+        "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+}
+input, button {
+    margin: 10px 3px 10px 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+}
+label {
+    position: relative;
+    top: 12px;
+    width: 190px;
+    float: left;
+}
+#submitButton {
+    width: 80px;
+    margin-left: 20px;
+}
+#errorMessage {
+    color: red;
+    font-size: 90% !important;
+}
+#successMessage {
+    color: green;
+    font-size: 90% !important;
+    display: block;
+    margin-top: 20px;
+}
+.button {
+    font-size: 13px;
+    color: red;
+    background-color: #f8fad7;
+}
+.button:hover {
+    background-color: #fadad7;
+}
+#draggable {
+    cursor: n-resize;
+}
+#cdcfieldset {
+    cursor: move;
+}
+input.currency {
+    text-align: left;
+    padding-right: 15px;
+}
+.input-group .form-control {
+    float: none;
+}
+.input-group .input-buttons {
+    position: relative;
+    z-index: 3;
+}
+
+.messages {
+    text-align: center;
+}
+
+#table-content table, th, td{
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    
+}
+
+
+#left-box, #right-box{
+    border: 1px solid black;
+    margin: 10px; 
+}
+
+#container-box1Ebox2{
+    display: block;
+    
+}
