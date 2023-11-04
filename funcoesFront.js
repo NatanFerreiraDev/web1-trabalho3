@@ -10,7 +10,6 @@ import { getTabelaPrice,
     converterJurosMensalParaAnual } from "./main.js";
     
 
-
 function handleButtonClick(){
 
     let tableElement,numeroParcelas,  juros,valorFinanciado,valorFinal,mesesAVoltar,temEntrada, imprimir;
